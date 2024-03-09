@@ -1,0 +1,116 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            h1+table{
+                border: 2px solid black; 
+                
+            }
+            table th{
+                border: 2px solid black;
+                background-color:aqua;
+            }
+            table td{
+                border: 1px solid blueviolet;
+                background-color:seagreen;
+                text-align: center;
+            }
+            #sun{
+                background-color:violet;
+                border: 3px solid blueviolet;
+                color: white;
+                text-align: center;
+                
+            }
+           
+            
+            [id="mon"]{ background-color: orange;
+                border: 3px solid blueviolet;
+                color: teal;
+                text-align: center;
+            }
+      [colspan="12"]{
+        text-align: center;
+        background-color: coral;
+        
+      }
+
+
+
+[id="tue"]{
+    background-color: red;color: blue;
+    text-align: center; 
+}
+.rest{
+    background-color: purple;
+    text-align: center;
+}
+
+
+            
+        </style>
+    </head>
+    <body>
+<h1> TABLE </h1>
+
+<table>
+ <tr>
+     <th> day </th>
+     
+     <th >8:00-9:30</th>
+     <th> 9:30-10:00</th>
+     <th>10:30-11:30 </th>
+     <th> 11:30-1:30</th>
+     <th> 1:30-2:30</th>
+     <th> 2:30-3:30</th>
+     <th> 3:30-5:00</th>
+     <th> 5:00-6:00 </th>
+     <th>6:00- 8:00</th>
+     <th> 8:00-8:30</th>
+     
+ </tr>
+ <tr>
+     <td id="mon"> MONDAY</td>
+     
+     
+     <td rowspan="6" class="rest"> technical class</td>
+     <td rowspan="6">break </td>
+     <td rowspan="6">communication <br> class</td>
+     <td rowspan="6" class="rest"> T<br>A<br>S<br>K </td>
+     <td rowspan="6"> Lunch</td>
+     <td rowspan="6" class="rest"> R<BR>E<BR>S<br>T</td>
+     <td rowspan="6" > T<br>A<br>S<br>K</td>
+     <td rowspan="6" class="rest"> Doubt Session </td>
+     <td rowspan="6"> Practice </td>
+     <td rowspan="6"> Dinner</td>   
+ </tr>
+<tr>
+ <td id="tue">TUESDAY</td>
+ 
+</tr>
+<tr>
+ <td id="mon">WEDNESDAY</td>
+</tr>
+<tr>
+ <td id="tue">THRUSDAY</td>
+</tr>
+<tr>
+ <td id="mon">FRIDAY</td>
+</tr> 
+<tr>
+    <td id="tue"> SATURDAY </td>
+    
+</tr>
+<tr>
+ <td id="sun"> SUNDAY</td>
+ <td colspan="12" > HOLIDAY </td>
+ </tr>
+ 
+
+</table>
+</body>
+</html>
